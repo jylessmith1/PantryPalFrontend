@@ -1,0 +1,85 @@
+.box2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    width: 200px;
+    max-height: 325px;
+    max-width: 200px;
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #799b7e96;
+    gap: 5px;
+}
+
+
+.inventoryItemHeader{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.itemAge{
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    width: auto;
+    background-color: #ffd8a9;
+    margin: 0;
+    width: 25%;
+}
+.inventoryItemName{
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: large;
+    font-weight: bold;
+    max-width: 45%;
+    background-color: #ffd8a9;
+    margin: 0;
+}
+.invImageWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.invItemImage{
+    max-height: 115px;
+    max-width: 125px;
+    border-radius: 10px;
+    margin: 0;
+    padding: 0;
+}
+.itemDescWrapper{
+    height: 95%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffd8a9;
+    padding: 5px;
+    padding-bottom: 0;
+}
+.invBtnWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.removeInvBtn{
+    background-color: #ff3131b7;
+    border-radius: 10px;
+    height: 50px;
+    padding: 5px;
+}
+.refreshInvBtn{
+    background-color: lightgreen;
+    border-radius: 10px;
+    height: 50px;
+    padding: 5px;
+}

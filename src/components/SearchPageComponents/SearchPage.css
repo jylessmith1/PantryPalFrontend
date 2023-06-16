@@ -1,0 +1,34 @@
+.searchPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.searchBoxWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 95%;
+    max-width: 600px;
+    background-color: #ffd8a9;
+    padding: 10px;
+    gap: 15px;
+    margin-top: 10px;
+}
+.searchBoxHeader {
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+}
+.searchResults {
+    display: flex;
+    justify-content: center;
+    width: 95%;
+    gap: 10px;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    padding-bottom: 50px;
+}
+.searchHeader{
+    
+}

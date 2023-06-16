@@ -1,0 +1,51 @@
+.inventoryPageWrapper {
+    border: 3px solid black;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 85%;
+    min-width: 350px;
+    height: 80%;
+    /* padding-bottom: 100px; */
+    overflow-y: scroll;
+    justify-content: flex-start;
+}
+.inventoryItems{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.inventoryItemsNearExpiration{
+    width: 85%;
+}
+.inventoryItemsNearExpiration {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    /* opacity: 0; */
+    transition: opacity 0.8s ease;
+
+}
+.emptyInventoryMessage{
+    height: auto;
+}
+.inventoryItems.animate,
+.inventoryItemsNearExpiration.animate {
+    animation: slideInFromLeft 0.8s ease;
+}
+
+@keyframes slideInFromLeft {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}

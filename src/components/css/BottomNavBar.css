@@ -1,0 +1,48 @@
+.navWrapper {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 10vh;
+    background-color: #efe4e1;
+    border-top: 4px solid #799b7e;
+}
+
+.navBtnWrapper{
+    display: flex;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    justify-content: space-around;
+    gap: 10px;
+    padding: 10px;
+    max-height: 50px;
+}
+
+.navBtnWrapper{
+    background-color: #799b7e;
+    width: 50%;
+    min-width: 300px;
+    height: 100%;
+}
+
+.navLink{
+    width: 50%;
+    height: 100%;
+}
+.icon{
+    width: 100%;
+    height: 100%;
+}
+.active{
+    background-color: #551A8B;
+    padding:10px;
+    
+    border: 2px solid #ffd8a9;
+    border-radius: 8px;
+}
+.active .icon{
+    scale: 1.5;
+    color: #799b7e;
+}
